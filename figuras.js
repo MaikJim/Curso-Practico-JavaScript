@@ -102,3 +102,28 @@ function calcularAreaTriangulo() {
     const areaTriangulo1 = areaTriangulo(valueBaseTriangulo,valueAlturaTriangulo);
     alert(areaTriangulo1);
 }
+
+//funciones de los Circulos 
+function calcularDiametroCirculo() {
+    const inputRadioCirculo =document.getElementById("inputRadioCirculo");
+    const valueRadioCirculo = inputRadioCirculo.value;
+
+    const DiamentroCriculo1 = diametroCirculo(valueRadioCirculo);
+    alert(DiamentroCriculo1); 
+}
+
+function calcularCircunferenciaCirculo() {
+    const inputRadioCirculo =document.getElementById("inputRadioCirculo");
+    const valueRadioCirculo = inputRadioCirculo.value;
+
+    const CircunferenciaCirculo = perimetroCirculo(valueRadioCirculo);
+    alert(CircunferenciaCirculo); 
+}
+
+function calcularAreaCirculo() {
+    const inputRadioCirculo =document.getElementById("inputRadioCirculo");
+    const valueRadioCirculo = inputRadioCirculo.value;
+
+    const AreaCriculo1 = areaCirculo(valueRadioCirculo);
+    alert(AreaCriculo1); 
+}
